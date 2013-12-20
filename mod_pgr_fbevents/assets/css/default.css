@@ -1,0 +1,58 @@
+.eventlist {
+    margin: 0;
+    padding: 0;
+
+}
+.eventlist ul {
+  list-style-type: none;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.eventlist h3{
+  font: bold 15px Helvetica, Verdana, sans-serif;
+}
+
+.eventlist li img {
+    float: left;
+    margin: 0 10px 0 0;
+    width: 65px;
+}
+
+.eventlist li p {
+      font: 200 12px Calibri, Georgia, Times New Roman, serif;
+}
+
+.eventlist li {
+  padding-bottom: 4px;
+  overflow: auto;
+      transition: background-color .5s;
+    -webkit-transition: background-color .5s; /* Safari */  
+}
+ 
+.eventlist li:hover {
+  background: #ddd;
+  cursor: pointer;
+      transition: background-color .5s;
+    -webkit-transition: background-color .5s; /* Safari */  
+}
+
+.eventlist a {
+    width: 100%;
+    height: 100%;
+}
+
+.eventlist a:hover {
+    text-decoration: none;
+}
+
+a.linkall {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+a.linkall:hover {
+    text-decoration: none;
+}
+

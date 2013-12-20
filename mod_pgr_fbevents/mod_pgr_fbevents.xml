@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.2.0" client="site" method="upgrade">
+    <name>Facebook Events</name>
+    <author>Pedro Grilo</author>
+    <version>1.0.0</version>
+    <description>Module to view a users facebook events list.</description>
+    <files>
+        <filename>mod_pgr_fbevents.xml</filename>
+        <filename module="mod_pgr_fbevents">mod_pgr_fbevents.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+        <folder>assets</folder>
+    </files>
+		<languages>
+		<language tag="en-GB">en-GB.mod_pgr_fbevents.ini</language>
+		<language tag="en-GB">en-GB.mod_pgr_fbevents.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="app_id"
+					type="text"
+					label="MOD_PGR_FBEVENTOS_APP_ID"
+					description="MOD_PGR_FBEVENTOS_APP_ID_DESC" />
+
+				<field
+					name="app_secret"
+					type="text"
+					label="MOD_PGR_FBEVENTOS_APP_SECRET"
+					description="MOD_PGR_FBEVENTOS_APP_SECRET_DESC" >
+				</field>
+				<field
+					name="uid"
+					type="text"
+					label="MOD_PGR_FBEVENTOS_USER_ID"
+					description="MOD_PGR_FBEVENTOS_ACCESS_USER_ID" >
+				</field>
+                        </fieldset>
+		</fields>
+	</config>
+</extension>
